@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.bg_container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_container {
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_heading {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.side_by_side {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_container {
+  background-image: none;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  height: 40px;
+  width: 180px;
+  font-weight: 700;
+  border-radius: 5px;
+  text-align: center;
+  border-style: none;
+  margin-bottom: 15px;
+}
+.names_container {
+  background-color: #fddddb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 120px;
+  width: 220px;
+}
+.names {
+  color: #000000;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .side_by_side {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
